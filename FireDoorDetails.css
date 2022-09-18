@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+
+/* Global setup */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.door-details-section {
+    margin-top: 100px;
+}
+
+
+/* swiper-slide */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    /* height:50%; */
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    /* opacity: 0.4; */
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.door-details-text h1{
+    font-family: 'Work Sans';
+    color: #1B5A3A;
+}
+.door-details-text p{
+    width: 60%;
+    font-family: 'Work Sans';
+
+}
+
+/* new-arrival */
+
+.card {
+    height: 412px;
+    width: 280px;
+    margin: auto;
+}
+
+.card-img-top {
+    background-color: #F1F1F1 !important;
+}
+
+.card-footer {
+    background-color: rgba(70, 102, 86, 0.3) !important;
+}
+
+.card-icon a {
+    text-decoration: none;
+    color: #333;
+}
+
+.arrival-card-text {
+    width: 50%;
+}
+
+.card-text span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.card-text small {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.card-icon i {
+    font-size: 24px;
+}
+
+.new-arrival-title {
+    font-family: 'Work Sans';
+    font-weight: 600;
+}
+
+
+
+
+
+/* MOBILE RESPONSIVE */
+@media only screen and (max-width: 768px) {}
+
+
+
+
+
+
+
+/* TAP RESPONSIVE */
+@media screen and (min-width: 768px) and (max-width: 1024px) {}

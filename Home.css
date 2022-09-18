@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+
+/* Global setup */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.main-banner {
+    background-image: url(./images/Hero.png);
+    height: 380px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 68px;
+}
+
+
+.service-img {
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.services-div:hover .service-img {
+    box-shadow: 0 .5rem 1rem rgba(37, 37, 37, 0.15);
+    transform: translateY(-3px);
+}
+
+.services-section h4 {
+    font-weight: 400;
+}
+
+.services-section h4 a {
+    color: #333;
+    font-size: 20px;
+}
+
+/* video-section */
+.video-section {
+    background-color: #C4C4C4;
+}
+
+.pulse-play {
+    position: absolute;
+    font-size: 94px;
+    height: 94px;
+    width: 94px;
+    color: rgba(0, 0, 0, 0.75);
+    top: 50%;
+    left: 50%;
+    margin-top: -47px;
+    margin-left: -47px;
+    z-index: 99;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: pulse 2s infinite;
+    -moz-animation: pulse 2s infinite;
+    -o-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+}
+
+/* new-arrival */
+.new-arrival-container {
+    min-height: 711px;
+    background-color: rgba(70, 102, 86, 0.3);
+}
+
+.card {
+    height: 412px;
+    width: 280px;
+    margin: auto;
+}
+
+.card-img-top {
+    background-color: #F1F1F1 !important;
+}
+
+.card-footer {
+    background-color: rgba(70, 102, 86, 0.3) !important;
+}
+
+.card-icon a {
+    text-decoration: none;
+    color: #333;
+}
+
+.arrival-card-text {
+    width: 50%;
+}
+
+.card-text span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.card-text small {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.card-icon i {
+    font-size: 24px;
+}
+
+.new-arrival-title {
+    font-family: 'Work Sans';
+    font-weight: 600;
+}
+
+/* swiper-section */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    height: 130px;
+    object-fit: cover;
+}
+
+.swiper-button-next {
+    width: 2vw !important;
+    height: 2vh !important;
+    color: #000 !important;
+    fill: black !important;
+    stroke: black !important;
+}
+
+.swiper-button-prev {
+    color: #000 !important;
+    fill: black !important;
+    stroke: black !important;
+}
+
+
+/* about us */
+.about-section {
+    background-image: linear-gradient(90deg, rgba(0, 3, 0, 0.7) 0%, rgba(217, 217, 217, 0) 100%), url("./images/about-us.jpg");
+    min-height: 476px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.about-text p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    width: 25%;
+}
+
+/* consultation-section */
+.consultation-section {
+    background: linear-gradient(0deg, #1B5A3A, #1B5A3A), url(./images/consultation.png);
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.consultation-text p {
+    font-family: 'Work Sans';
+}
+
+/* experience-section */
+.experience-section {
+    min-height: 400px;
+}
+
+.card-container {
+    position: relative;
+    height: 29vh;
+}
+
+.exp-text-container h1 {
+    color: #1B5A3A;
+    font-family: 'Work Sans';
+    font-weight: 700;
+}
+
+.exp-text-container p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+}
+
+.exp-btn {
+    background-color: #1B5A3A !important;
+    font-weight: 500 !important;
+}
+
+.card-container {
+    position: relative;
+}
+
+.exp-card-1 {
+    width: 250px;
+    height: 100px;
+    position: relative;
+    left: 0;
+    top: -10%;
+}
+
+.exp-card-1 img {
+    width: 59px;
+    height: 59px;
+    position: absolute;
+    top: -40px;
+    left: -20px;
+}
+
+.exp-card-2 {
+    width: 230px;
+    height: 120px;
+    position: relative;
+    top: -40%;
+    left: 200px;
+}
+
+.exp-card-2 img {
+    width: 59px;
+    height: 59px;
+    position: absolute;
+    top: -30px;
+    right: -15px;
+}
+
+.exp-card-3 {
+    width: 220px;
+    height: 120px;
+    position: relative;
+    top: 30%;
+    left: 150px;
+}
+
+.exp-card-3 img {
+    width: 59px;
+    height: 59px;
+    position: absolute;
+    top: -30px;
+    right: -15px;
+}
+
+.exp-card-4 {
+    width: 240px;
+    height: 120px;
+    position: relative;
+    top: 72%;
+    left: 5%;
+}
+
+.exp-card-4 img {
+    width: 59px;
+    height: 59px;
+    position: absolute;
+    bottom: -30px;
+    right: -25px;
+}
+
+
+/* contact-section */
+.contact-from-container {
+    width: 50%;
+}
+
+.contact-text-container p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+}
+
+.submit-btn {
+    width: 271px;
+    background-color: #1B5A3A !important;
+    font-weight: 500 !important;
+}
+
+
+/* footer */
+.footer {
+    min-height: 348px;
+    background: rgba(70, 102, 86, 0.3);
+}
+
+.address-label {
+    color: #2947A9;
+    font-weight: 500;
+    font-family: 'Work Sans';
+    font-size: 20px;
+}
+
+.address {
+    color: #292E3D;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.social h6 {
+    color: #292E3D;
+    font-weight: 500;
+    font-family: 'Work Sans';
+    font-size: 20px;
+}
+
+.social i {
+    color: #292E3D;
+    font-weight: 500;
+}
+
+.newsletter {
+    color: #1B5A3A;
+    font-weight: 500;
+    font-family: 'Work Sans';
+    font-size: 20px;
+}
+
+.news-input {
+    outline: none;
+    border-radius: 3px;
+    width: 270px;
+    height: 40px;
+    padding: 0 5px;
+}
+
+.subscribe-btn {
+    width: 130px;
+    height: 40px;
+    background-color: #F9995D;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: 'Work Sans';
+}
+
+
+
+
+
+/* MOBILE RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    .main-banner {
+        background-image: url(./images/Hero.png);
+        height: 180px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    /* about-us */
+    .about-text p {
+        width: 100%;
+    }
+
+
+    /* experience-section */
+    .card-container {
+        position: relative;
+        height: 60vh;
+    }
+
+    .exp-card-1 {
+        width: 250px;
+        height: 100px;
+        position: relative;
+        top: 0;
+        left: 15%;
+    }
+
+    .exp-card-1 img {
+        width: 59px;
+        height: 59px;
+        position: absolute;
+        top: -40px;
+        left: -20px;
+    }
+
+    .exp-card-2 {
+        width: 230px;
+        height: 120px;
+        position: relative;
+        top: 25%;
+        left: 18%;
+    }
+
+    .exp-card-2 img {
+        width: 59px;
+        height: 59px;
+        position: absolute;
+        top: -30px;
+        right: -15px;
+    }
+
+    .exp-card-3 {
+        width: 220px;
+        height: 120px;
+        position: relative;
+        top: 53%;
+        left: 19%;
+    }
+
+    .exp-card-3 img {
+        width: 59px;
+        height: 59px;
+        position: absolute;
+        top: -30px;
+        right: -15px;
+    }
+
+    .exp-card-4 {
+        width: 240px;
+        height: 120px;
+        position: relative;
+        top: 78%;
+        left: 16%;
+    }
+
+    .exp-card-4 img {
+        width: 59px;
+        height: 59px;
+        position: absolute;
+        bottom: -30px;
+        right: -25px;
+    }
+
+    /* contact-section */
+    .contact-from-container {
+        width: 100%;
+    }
+
+    .submit-btn {
+        width: 271px;
+    }
+
+    /* footer-section */
+    .news-input {
+        outline: none;
+        border-radius: 3px;
+        width: 210px;
+        height: 40px;
+        padding: 0 5px;
+    }
+
+    .subscribe-btn {
+        width: 110px;
+        height: 40px;
+        background-color: #F9995D;
+        border-radius: 3px;
+        color: #FFFFFF;
+        font-family: 'Work Sans';
+    }
+
+
+}
+
+
+
+
+
+
+
+/* TAP RESPONSIVE */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* new-arrival */
+    .new-arrival-container {
+        min-height: 711px;
+        background-color: rgba(70, 102, 86, 0.3);
+        width: 100%;
+    }
+
+    .card {
+        height: 180px;
+        width: 220px;
+        margin: auto;
+    }
+
+    .card-text {
+        width: 75%;
+    }
+
+    .card-icon i {
+        font-size: 17px;
+    }
+
+    /* about-us */
+    .about-text p {
+        width: 100%;
+    }
+
+    /* contact-section */
+    .contact-from-container {
+        width: 100%;
+    }
+
+    .submit-btn {
+        width: 271px;
+    }
+
+    /* experience-section */
+    .card-container {
+        position: relative;
+        height: 15vh;
+    }
+
+    /* footer-section */
+    .news-input {
+        outline: none;
+        border-radius: 3px;
+        width: 210px;
+        height: 40px;
+        padding: 0 5px;
+    }
+
+    .subscribe-btn {
+        width: 110px;
+        height: 40px;
+        background-color: #F9995D;
+        border-radius: 3px;
+        color: #FFFFFF;
+        font-family: 'Work Sans';
+    }
+}
