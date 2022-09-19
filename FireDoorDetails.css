@@ -63,7 +63,7 @@
 }
 
 .mySwiper2 {
-    /* height:50%; */
+    height: 50vh;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -92,14 +92,14 @@
 }
 
 
-.door-details-text h1{
+.door-details-text h1 {
     font-family: 'Work Sans';
     color: #1B5A3A;
 }
-.door-details-text p{
+
+.door-details-text p {
     width: 60%;
     font-family: 'Work Sans';
-
 }
 
 /* new-arrival */
@@ -108,6 +108,7 @@
     height: 412px;
     width: 280px;
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .card-img-top {
@@ -146,12 +147,31 @@
     font-weight: 600;
 }
 
+.similar-product-title{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 24px;
+}
+
 
 
 
 
 /* MOBILE RESPONSIVE */
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+
+    .mySwiper2 {
+        height: 30vh;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .door-details-text p {
+        width: 100%;
+        text-align: justify;
+        font-family: 'Work Sans';
+    }
+}
 
 
 
@@ -160,4 +180,37 @@
 
 
 /* TAP RESPONSIVE */
-@media screen and (min-width: 768px) and (max-width: 1024px) {}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .mySwiper2 {
+        height: 20vh;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .door-details-text p {
+        width: 100%;
+        text-align: justify;
+        font-family: 'Work Sans';
+    }
+
+    /* new-arrival */
+    .new-arrival-container {
+        min-height: 711px;
+        background-color: rgba(70, 102, 86, 0.3);
+        width: 100%;
+    }
+
+    .card {
+        height: 180px;
+        width: 220px;
+        margin: auto;
+    }
+
+    .card-text {
+        width: 75%;
+    }
+
+    .card-icon i {
+        font-size: 17px;
+    }
+}
