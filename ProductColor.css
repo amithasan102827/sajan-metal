@@ -25,10 +25,34 @@
     background-color: #1B5A3A !important;
 }
 
-.option-input {
-    width: 50px !important;
-    height: 50px !important;
+.option-input-1 {
+    width: 67px !important;
+    height: 67px !important;
     background-color: #FF3737 !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 50px !important;
+
+}
+.option-input-2 {
+    width: 67px !important;
+    height: 67px !important;
+    background-color: #3E6B6D !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 50px !important;
+
+}
+.option-input-3 {
+    width: 67px !important;
+    height: 67px !important;
+    background-color: #797979 !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 50px !important;
+
+}
+.option-input-4 {
+    width: 67px !important;
+    height: 67px !important;
+    background-color: #B9EBEE !important;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-radius: 50px !important;
 

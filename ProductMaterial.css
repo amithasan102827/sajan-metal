@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+
+/* Global setup */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.porduct-size-section {
+    margin-top: 100px;
+}
+
+
+.title {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.next-btn {
+    background-color: #C8D1CC !important;
+}
+.calculate-btn {
+    background-color: #1B5A3A !important;
+}
+
+.product-material{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-material div label{
+    cursor: pointer;
+}
+.product-material div label input[type="checkbox"]{
+    display: none;
+}
+
+.product-material div label span{
+    position: relative;
+    display: inline-block;
+    background: rgba(70, 102, 86, 0.3);
+    padding: 15px 20px;
+    color: #555;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    font-size: 17px;
+    transition: 0.5s;
+    user-select: none;
+    margin:20px 20px;
+}
+
+.product-material div label input[type="checkbox"]:checked~span{
+    background: rgba(70, 102, 86, 0.7);
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(70, 102, 86, 0.7);
+}
+
+
+.input[type="checkbox"]{
+    outline: none !important;
+}
+
+
+
+
+
+
+
+/* MOBILE RESPONSIVE */
+@media only screen and (max-width: 768px) {}
+
+
+/* TAP RESPONSIVE */
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
