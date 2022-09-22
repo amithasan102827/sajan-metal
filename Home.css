@@ -78,7 +78,7 @@
     background-color: rgba(70, 102, 86, 0.3);
 }
 
-.card {
+.new-arrival-card {
     height: 412px;
     width: 280px;
     margin: auto;
@@ -87,20 +87,20 @@
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.card:hover {
+.new-arrival-card:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     transform: translateY(-3px);
 }
 
-.card-img-top {
+.new-arrival-card .card-img-top {
     background-color: #F1F1F1 !important;
 }
 
-.card-footer {
+.new-arrival-card .card-footer {
     background-color: rgba(70, 102, 86, 0.3) !important;
 }
 
-.card-icon a {
+.new-arrival-card .card-icon a {
     text-decoration: none;
     color: #333;
 }
@@ -109,12 +109,12 @@
     width: 50%;
 }
 
-.card-text span {
+.arrival-card-text span {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
-.card-text small {
+.arrival-card-text small {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
@@ -240,6 +240,8 @@
     position: relative;
     left: 0;
     top: -10%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
 }
 
 .exp-card-1 img {
@@ -256,6 +258,8 @@
     position: relative;
     top: -40%;
     left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
 }
 
 .exp-card-2 img {
@@ -272,6 +276,8 @@
     position: relative;
     top: 30%;
     left: 150px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
 }
 
 .exp-card-3 img {
@@ -288,6 +294,8 @@
     position: relative;
     top: 72%;
     left: 5%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
 }
 
 .exp-card-4 img {
@@ -313,6 +321,18 @@
     width: 271px;
     background-color: #1B5A3A !important;
     font-weight: 500 !important;
+}
+
+.form-control {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.form-select{
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
 }
 
 

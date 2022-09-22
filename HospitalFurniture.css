@@ -11,7 +11,7 @@
 }
 
 
-.main-banner {
+.hospitalFurniture-banner {
     background-image: url(./images/Rectangle\ 532.png);
     height: 380px;
     background-position: center;
@@ -21,12 +21,16 @@
 }
 
 
-
+.form-select {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
 
 
 
 /* new-arrival */
-.card {
+.HospitalFurniture-card {
     height: 412px;
     width: 280px;
     margin: auto;
@@ -34,45 +38,41 @@
     transition: all 0.2s ease;
 }
 
-.card-img-top {
+
+.HospitalFurniture-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transform: translateY(-3px);
+}
+
+.HospitalFurniture-card .card-img-top {
     background-color: #F1F1F1 !important;
 }
 
-.card-footer {
+.HospitalFurniture-card .card-footer {
     background-color: rgba(70, 102, 86, 0.3) !important;
 }
 
-.card-icon a {
+.HospitalFurniture-card .card-icon a {
     text-decoration: none;
     color: #333;
 }
 
-.arrival-card-text {
+.HospitalFurniture-card .arrival-card-text {
     width: 50%;
 }
 
-.card-text span {
+.HospitalFurniture-card .card-text span {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
-.card-text small {
+.HospitalFurniture-card .card-text small {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
 
-.card-icon i {
+.HospitalFurniture-card .card-icon i {
     font-size: 24px;
-}
-
-.new-arrival-title {
-    font-family: 'Work Sans';
-    font-weight: 600;
-}
-
-.card:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    transform: translateY(-3px);
 }
 
 .title {
@@ -88,7 +88,7 @@
 /* MOBILE RESPONSIVE */
 @media only screen and (max-width: 768px) {
 
-    .main-banner {
+    .hospitalFurniture-banner {
         background-image: url(./images/Rectangle\ 532.png);
         height: 180px;
         background-position: center;
@@ -103,29 +103,22 @@
 
 
 
-
-
 /* TAP RESPONSIVE */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
     /* new-arrival */
-    .new-arrival-container {
-        min-height: 711px;
-        background-color: rgba(70, 102, 86, 0.3);
-        width: 100%;
-    }
 
-    .card {
+    .HospitalFurniture-card {
         height: 180px;
         width: 220px;
         margin: auto;
     }
 
-    .card-text {
+    .HospitalFurniture-card .card-text {
         width: 75%;
     }
 
-    .card-icon i {
+    .HospitalFurniture-card .card-icon i {
         font-size: 17px;
     }
 }

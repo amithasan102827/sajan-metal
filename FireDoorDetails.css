@@ -11,11 +11,9 @@
 }
 
 
-
 .door-details-section {
     margin-top: 100px;
 }
-
 
 /* swiper-slide */
 .swiper {
@@ -102,60 +100,57 @@
     font-family: 'Work Sans';
 }
 
-/* new-arrival */
+/* Simillar Products */
 
-.card {
+.details-page-card {
     height: 412px;
     width: 280px;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     transition: all 0.2s ease;
 }
-.card:hover {
+
+.details-page-card:hover {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     transform: translateY(-3px);
 }
 
-.card-img-top {
+.details-page-card .card-img-top {
     background-color: #F1F1F1 !important;
 }
 
-.card-footer {
+.details-page-card .card-footer {
     background-color: rgba(70, 102, 86, 0.3) !important;
 }
 
-.card-icon a {
+.details-page-card .card-icon a {
     text-decoration: none;
     color: #333;
 }
 
-.arrival-card-text {
+.details-page-card .arrival-card-text {
     width: 50%;
 }
 
-.card-text span {
+.details-page-card .card-text span {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
-.card-text small {
+.details-page-card .card-text small {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
 
-.card-icon i {
+.details-page-card .card-icon i {
     font-size: 24px;
 }
 
-.new-arrival-title {
-    font-family: 'Work Sans';
-    font-weight: 600;
-}
-
-.similar-product-title{
+.similar-product-title {
     font-family: 'Work Sans';
     font-weight: 500;
-    font-size: 24px;
+    font-size: 26px;
+    color: #1B5A3A;
 }
 
 
@@ -181,9 +176,6 @@
 
 
 
-
-
-
 /* TAP RESPONSIVE */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .mySwiper2 {
@@ -198,24 +190,17 @@
         font-family: 'Work Sans';
     }
 
-    /* new-arrival */
-    .new-arrival-container {
-        min-height: 711px;
-        background-color: rgba(70, 102, 86, 0.3);
-        width: 100%;
-    }
-
-    .card {
+    .details-page-card {
         height: 180px;
         width: 220px;
         margin: auto;
     }
 
-    .card-text {
+    .details-page-card .card-text {
         width: 75%;
     }
 
-    .card-icon i {
+    .details-page-card .card-icon i {
         font-size: 17px;
     }
 }
